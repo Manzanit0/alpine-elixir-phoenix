@@ -3,7 +3,7 @@ name: Build/Publish Image
 on:
   push:
     branches:
-      - master
+      - my-image
     paths:
       - 'Makefile'
       - 'Dockerfile'
